@@ -27,6 +27,7 @@ Verify the Action of Right Click and Double click
         Create WebDriver    Chrome    options=${chrome options}
         Go To     https://www.amazon.in/
         Maximize Browser Window
+        Sleep    7
         Open Context Menu    xpath://a[normalize-space()='Mobiles']
         #Right click
         Sleep    2
