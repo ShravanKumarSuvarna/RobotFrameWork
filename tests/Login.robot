@@ -18,10 +18,10 @@ Verify login sucess with valid credential
         Create WebDriver    Chrome    options=${chrome options}
         Go To     https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
         Maximize Browser Window
-        Wait Until Element Is Visible    xpath://input[@placeholder='Username']     timeout=5
+        Wait Until Element Is Visible    xpath://input[@placeholder='Username']     timeout=10
         Input Text    xpath://input[@placeholder='Username']    Admin
         Input Text    xpath://input[@placeholder='Password']    admin123
         Click Element    xpath://button[normalize-space()='Login']
         Wait Until Element Is Visible    xpath://h6[normalize-space()='Dashboard']
-        Element Should Be Visible    xpath://h6[normalize-space()='Dashboard']     timeout=5
+        Element Should Be Visible    xpath://h6[normalize-space()='Dashboard']     timeout=10
         Close Browser
