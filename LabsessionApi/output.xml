@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-06-12T14:02:45.181048" rpa="false" schemaversion="5">
+<suite id="s1" name="Post" source="C:\Users\shkum\PycharmProjects\RobotFrameWork1\LabsessionApi\Post.robot">
+<test id="s1-t1" name="Post request example" line="21">
+<kw name="Create Session" owner="RequestsLibrary">
+<msg time="2025-06-12T14:02:45.577925" level="INFO">Creating Session using : alias=baseURI, url=https://videogamedb.uk:443/, headers={},                     cookies={}, auth=None, timeout=None, proxies=None, verify=False,                     debug=0 </msg>
+<arg>baseURI</arg>
+<arg>${base_url}</arg>
+<arg>verify=False</arg>
+<doc>Create Session: create a HTTP session to a server</doc>
+<status status="PASS" start="2025-06-12T14:02:45.577471" elapsed="0.000820"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-06-12T14:02:45.579387" level="INFO">${body} = {'category': 'Platform', 'name': 'Mario', 'rating': 'Mature', 'releaseDate': '2012-05-04', 'reviewScore': '85'}</msg>
+<var>${body}</var>
+<arg>category=Platform</arg>
+<arg>name=Mario</arg>
+<arg>rating=Mature</arg>
+<arg>releaseDate=2012-05-04</arg>
+<arg>reviewScore=85</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-06-12T14:02:45.578890" elapsed="0.000540"/>
+</kw>
+<kw name="Create Dictionary" owner="BuiltIn">
+<msg time="2025-06-12T14:02:45.582424" level="INFO">${headers} = {'content-type': 'application/json'}</msg>
+<var>${headers}</var>
+<arg>content-type=application/json</arg>
+<doc>Creates and returns a dictionary based on the given ``items``.</doc>
+<status status="PASS" start="2025-06-12T14:02:45.581943" elapsed="0.000541"/>
+</kw>
+<kw name="POST On Session" owner="RequestsLibrary">
+<msg time="2025-06-12T14:02:46.055155" level="INFO">POST Request : url=https://videogamedb.uk:443/api/v2/videogame 
+ path_url=/api/v2/videogame 
+ headers={'User-Agent': 'python-requests/2.32.4', 'Accept-Encoding': 'gzip, deflate', 'Accept': '*/*', 'Connection': 'keep-alive', 'content-type': 'application/json', 'Content-Length': '111'} 
+ body=b'{"category": "Platform", "name": "Mario", "rating": "Mature", "releaseDate": "2012-05-04", "reviewScore": "85"}' 
+ </msg>
+<msg time="2025-06-12T14:02:46.055411" level="INFO">POST Response : url=https://videogamedb.uk:443/api/v2/videogame 
+ status=200, reason= 
+ headers={'vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers', 'x-content-type-options': 'nosniff', 'x-xss-protection': '1; mode=block', 'cache-control': 'no-cache, no-store, max-age=0, must-revalidate', 'pragma': 'no-cache', 'expires': '0', 'x-frame-options': 'DENY', 'content-type': 'application/json', 'transfer-encoding': 'chunked', 'date': 'Thu, 12 Jun 2025 08:32:46 GMT', 'server': 'Fly/3e8bebaf (2025-06-05)', 'via': '1.1 fly.io, 1.1 fly.io', 'fly-request-id': '01JXHMAAGHTFWYDBDFC3K9665E-bom', 'content-encoding': 'gzip'} 
+ body={"id":0,"name":"Mario","releaseDate":"2012-05-04","reviewScore":85,"category":"Platform","rating":"Mature"} 
+ </msg>
+<msg time="2025-06-12T14:02:46.056216" level="INFO">C:\Users\shkum\PycharmProjects\RobotFrameWork1\.venv\Lib\site-packages\urllib3\connectionpool.py:1097: InsecureRequestWarning: Unverified HTTPS request is being made to host 'videogamedb.uk'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(</msg>
+<msg time="2025-06-12T14:02:46.056788" level="INFO">${response} = &lt;Response [200]&gt;</msg>
+<var>${response}</var>
+<arg>baseURI</arg>
+<arg>${Servicename}</arg>
+<arg>json=${body}</arg>
+<arg>headers=${headers}</arg>
+<doc>Sends a POST request on a previously created HTTP Session.</doc>
+<status status="PASS" start="2025-06-12T14:02:45.586446" elapsed="0.470402"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-12T14:02:46.058085" level="INFO">&lt;Response [200]&gt;</msg>
+<arg>${response}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-12T14:02:46.057703" elapsed="0.000478"/>
+</kw>
+<kw name="Log" owner="BuiltIn">
+<msg time="2025-06-12T14:02:46.062029" level="INFO">200</msg>
+<arg>${response.status_code}</arg>
+<doc>Logs the given message with the given level.</doc>
+<status status="PASS" start="2025-06-12T14:02:46.060617" elapsed="0.001486"/>
+</kw>
+<status status="PASS" start="2025-06-12T14:02:45.575652" elapsed="0.486770"/>
+</test>
+<status status="PASS" start="2025-06-12T14:02:45.185352" elapsed="0.880225"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Post" id="s1" pass="1" fail="0" skip="0">Post</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

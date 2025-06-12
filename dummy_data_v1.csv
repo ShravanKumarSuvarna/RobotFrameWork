@@ -1,0 +1,2 @@
+${name};${email};${gender};${mobile};${dob};${subject};${hobby};${path};${address};${state};${city}
+John Doe;john.doe@example.com;Male;5484641809;01/02/1984;Math;Reading, Sports;"C:\\Users\\shkum\\Downloads\\sampleFile (3).jpeg";123 Main St;NCR;Agra;

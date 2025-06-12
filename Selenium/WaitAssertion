@@ -1,0 +1,26 @@
+*** Settings ***
+Library     SeleniumLibrary
+
+*** Variables ***
+${browser}      Firefox
+${url}          https://opensource-demo.orangehrmlive.com/web/index.php/auth/login
+
+*** Test Cases ***
+Verify login success with valid credentials
+    [Documentation]    This test case verifies that user is able to successfully login to the OrangeHRM demo site
+
+    Open Browser       ${url}    ${browser}
+    Maximize Browser Window
+
+    # Replace these placeholders with actual values for your app
+
+    Wait Until Element Is Visible              locator           timeout=10s
+    Wait Until Page Does Not Contain Element   locator           timeout=10s
+    Wait Until Keyword Succeeds                 retry=3           retry_interval=2s    name=Wait Until Element Is Visible    locator    timeout=5s
+    Wait Until Element Contains                 locator           text
+    Wait Until Element Is Enabled               locator           timeout=10s
+    Wait Until Page Contains Element            locator           timeout=10s
+    Wait Until Element Does Not Contain          locator           text
+    Wait Until Element Is Not Visible             locator           timeout=10s
+
+    Close Browser

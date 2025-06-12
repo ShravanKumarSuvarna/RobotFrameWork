@@ -1,0 +1,198 @@
+1749535441389	geckodriver	INFO	Listening on 127.0.0.1:60807
+1749535444469	mozrunner::runner	INFO	Running command: "C:\\Users\\shkum\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "6 ... 8" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shkum\\AppData\\Local\\Temp\\rust_mozprofilen5vSi7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749535445388	Marionette	INFO	Marionette enabled
+1749535446287	Marionette	INFO	Listening on port 60815
+WebDriver BiDi listening on ws://127.0.0.1:60808
+Read port: 60815
+1749535446474	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1749535453981	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1749535456230	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+1749535458401	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:205:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:189:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:465:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:218:33
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://the-internet.herokuapp.com/javascript_alerts" [Exception... "Failure"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "<unknown>"  data: no]
+JavaScript error: https://cdn.ad.plus/player/adplus.js, line 431: TypeError: c(...).setup is not a function
+JavaScript warning: https://api.b2c.com/api/init-67837llrmed7abvew8my.js?adID=607887411&advertiserID=5481501&campaignID=31418751&creativeID=231195381&placementID=415562840&environment=j&siteid=9008513&country=ct=IN&st=&city=7261&dma=0&zp=575002&bw=0&match=0&site=N339201.4066079OMDPROGRAMMATICUA&landingpage=https://www.visitdubai.com/en/travel-to-dubai/in%3Futm_source%3Dprogrammatic%26utm_medium%3Ddisplay%26utm_campaign%3Dseasonalaonapac%26utm_term%3Dind-en_genericfamilyseta1%26utm_content%3Dconsideration_banner970x250_OPXInmarketAll%26dclid%3D%25edclid!%26gad_source%3D7, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+console.warn: "Listener for event 'frame' did not return a promise."
+JavaScript warning: https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207, line 350: Script terminated by timeout at:
+lk@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:350:717
+$t@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:501:309
+bu@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:501:466
+Qu@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:527:399
+Pu@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:527:274
+xN@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:835:244
+aa.Up@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:827:26
+aa.Tp/</<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:824:502
+Sm@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:384:194
+bp@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:406:70
+aa.Tp/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:824:488
+c@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:593:9
+sy@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:593:336
+aa.Tp@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:824:474
+c@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:839:964
+w@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:425:370
+an@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:386:513
+Fq@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:425:452
+Eq.prototype.flush@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:429:409
+Eq.prototype.push@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:427:379
+wq@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:422:544
+SN/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:840:175
+aa.Yn/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:777:126
+aa.Yn/c/<@https://www.googletagmanager.com/gtag/js?id=G-MVRXK93D28&cx=c&gtm=45He5650v855226469za200&tag_exp=101509157~103116026~103200004~103233427~103351869~103351871~104617979~104617981~104653070~104653072~104661466~104661468~104684204~104684207~104698127~104698129~104718207:776:420
+
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript warning: https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js, line 81: Script terminated by timeout at:
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:184
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Dd/k/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:511
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Oe/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:401
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+N/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:96:1199
+jd/this.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:991
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+Hh/c/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:320
+Xa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:339
+Ua.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:49:127
+Wa@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:483
+Hh/c/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:292
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+tg/</</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:515
+Ta.prototype.Sb/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:48:315
+tg/</</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:524
+uc.prototype.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:81:218
+n.Ed@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:756
+n.next@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:80:523
+h@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:477
+EventListener.handleEvent*Ld/d</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:93:178
+Ld/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:94:2
+n.Gd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:795
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:745
+Hd/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:1164
+n.Gd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:795
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:745
+tg/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:473
+n.Gd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:795
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:745
+tg/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:121:473
+n.Gd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:795
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:745
+Hh/c/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:268
+n.Gd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:795
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:745
+pd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:373
+Pd.prototype.af@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:95:332
+$d.prototype.execute@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:97:463
+Rd.prototype.flush@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:96:457
+$d.prototype.F@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:97:338
+gd.prototype.F@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:512
+pd/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:351
+kd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1476
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:717
+md.prototype.connect@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:111
+ld/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1781
+kd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1476
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:717
+Hh/c/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:142:268
+n.Gd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:795
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:745
+M/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:442
+kd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1476
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:717
+Dd@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:642
+Ed/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:92:977
+kd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1476
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:717
+We/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:101:1229
+kd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1476
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:717
+M/<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:91:442
+kd/</<@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:90:1476
+n.subscribe@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:82:717
+Xs.prototype.start@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:322:266
+Bs.prototype.start@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:314:161
+@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:366:283
+@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:366:372
+@https://pagead2.googlesyndication.com/pagead/managed/js/activeview/current/ufs_web_display.js:366:382
+
+1749536408572	Marionette	INFO	Stopped listening on port 60815
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://gre/modules/AsyncShutdown.sys.mjs","name":"observe","sourceId":17,"lineNumber":569,"columnNumber":17,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17|
+  - prototype Object

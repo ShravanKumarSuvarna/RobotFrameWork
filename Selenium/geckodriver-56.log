@@ -1,0 +1,52 @@
+1749545782415	geckodriver	INFO	Listening on 127.0.0.1:58694
+1749545785504	mozrunner::runner	INFO	Running command: "C:\\Users\\shkum\\AppData\\Local\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "5 ... 5" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\shkum\\AppData\\Local\\Temp\\rust_mozprofilewgRtZp"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1749545786368	Marionette	INFO	Marionette enabled
+1749545787078	Marionette	INFO	Listening on port 58702
+WebDriver BiDi listening on ws://127.0.0.1:58695
+Read port: 58702
+1749545787196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.in/, line 3939: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1749545795385	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript warning: https://m.media-amazon.com/images/I/71hE7IvdPvL.js?AUIClients/FWCIMAssets, line 298: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://m.media-amazon.com/images/I/B1jCTJSMiYL.js, line 69: Script terminated by timeout at:
+Go@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:67599
+Cs@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:108330
+mu@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:90433
+pu@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:90356
+au@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:87684
+yl30/Yi/<@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:45867
+KqkS/t.unstable_runWithPriority@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:31:3470
+Wi@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:45576
+Yi@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:45814
+Ki@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:45747
+ou@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:69:87976
+notify@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:1:6444
+notifyNestedSubs@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:1:7040
+i@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:1:6874
+v@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:7:77203
+MPJ9/Ke/l/</<@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:31:28064
+ANjH/c/<@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:7:79310
+E4kw/</Tt/this.onOutOfView@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:15:72020
+outOfView@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:15:72962
+E4kw/</mt/this.handleVisibilityChange@https://m.media-amazon.com/images/I/B1jCTJSMiYL.js:15:66496
+
+1749545805924	Marionette	INFO	Stopped listening on port 58702
+Dynamically enable window occlusion 1
+console.error: "Failed to fetch https://ads.mozilla.org/v1/delete_user:" "NetworkError when attempting to fetch resource."
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.
+console.error: services.settings: 
+Object
+  - prototype Object
+    - columnNumber = 0
+    - data = null
+    - filename = resource://gre/modules/ServiceRequest.sys.mjs
+    - lineNumber = 126
+    - location = {"name":"open","filename":"resource://gre/modules/ServiceRequest.sys.mjs","sourceId":27,"lineNumber":126,"columnNumber":11,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch/<","sourceId":26,"lineNumber":268,"columnNumber":15,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetch","sourceId":26,"lineNumber":219,"columnNumber":12,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/Utils.sys.mjs","name":"fetchLatestChanges","sourceId":26,"lineNumber":429,"columnNumber":34,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"sync","sourceId":24,"lineNumber":625,"columnNumber":42,"asyncCause":null,"asyncCaller":null,"caller":{"filename":"resource://services-settings/RemoteSettingsClient.sys.mjs","name":"get/this._importingPromise<","sourceId":24,"lineNumber":477,"columnNumber":28,"asyncCause":null,"asyncCaller":null,"caller":null,"formattedStack":"get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"fetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}},"formattedStack":"open@resource://gre/modules/ServiceRequest.sys.mjs:126:11\nfetch/<@resource://services-settings/Utils.sys.mjs:268:15\nfetch@resource://services-settings/Utils.sys.mjs:219:12\nfetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34\nsync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42\nget/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28\n","nativeSavedFrame":{}}
+    - message = 
+    - name = 
+    - result = 2152071198
+    - stack = open@resource://gre/modules/ServiceRequest.sys.mjs:126:11|fetch/<@resource://services-settings/Utils.sys.mjs:268:15|fetch@resource://services-settings/Utils.sys.mjs:219:12|fetchLatestChanges@resource://services-settings/Utils.sys.mjs:429:34|sync@resource://services-settings/RemoteSettingsClient.sys.mjs:625:42|get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:477:28|
+  - prototype Object

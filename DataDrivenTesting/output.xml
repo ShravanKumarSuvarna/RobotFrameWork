@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-06-12T11:25:16.944834" rpa="false" schemaversion="5">
+<suite id="s1" name="LabseesionKeywords" source="C:\Users\shkum\PycharmProjects\RobotFrameWork1\DataDrivenTesting\LabseesionKeywords.robot">
+<kw name="Launch App" owner="LabDDTKeywords" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:17.659910" level="INFO">Opening browser 'Edge' to base url 'https://www.tutorialspoint.com/selenium/practice/selenium_automation_practice.php'.</msg>
+<arg>${url}</arg>
+<arg>${browser}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2025-06-12T11:25:17.659390" elapsed="5.512239"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2025-06-12T11:25:23.172218" elapsed="0.038086"/>
+</kw>
+<status status="PASS" start="2025-06-12T11:25:17.658292" elapsed="5.552244"/>
+</kw>
+<test id="s1-t1" name="Fill with name John Doe and john.doe@example.com and Male and 5484641809 and 01/02/1984 and Math and Reading, Sports and C:UsersshkumDownloadssampleFile (3).jpeg and 123 Main St and NCR and Agra" line="15">
+<kw name="StudentLogin">
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:25.226632" level="INFO">Slept 2 seconds.</msg>
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:23.212799" elapsed="2.014183"/>
+</kw>
+<kw name="Set Name" owner="LabDDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:25.230399" level="INFO">Typing text 'John Doe' into text field 'xpath://input[@id='name']'.</msg>
+<arg>xpath://input[@id='name']</arg>
+<arg>${name}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:25.229527" elapsed="0.196992"/>
+</kw>
+<arg>${name}</arg>
+<status status="PASS" start="2025-06-12T11:25:25.228526" elapsed="0.198144"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:26.427836" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:25.426821" elapsed="1.001223"/>
+</kw>
+<kw name="Set Email" owner="LabDDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:26.429303" level="INFO">Typing text 'john.doe@example.com' into text field 'xpath://input[@id='email']'.</msg>
+<arg>xpath://input[@id='email']</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:26.429025" elapsed="0.089865"/>
+</kw>
+<arg>${email}</arg>
+<status status="PASS" start="2025-06-12T11:25:26.428566" elapsed="0.090541"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:27.519842" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:26.519229" elapsed="1.000848"/>
+</kw>
+<kw name="Set Gender" owner="LabDDTKeywords">
+<if>
+<branch type="IF" condition="'${gender}' == 'Male'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:27.522216" level="INFO">Clicking element 'xpath://input[@id='gender']'.</msg>
+<arg>xpath://input[@id='gender']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:27.521827" elapsed="0.336258"/>
+</kw>
+<status status="PASS" start="2025-06-12T11:25:27.521294" elapsed="0.336931"/>
+</branch>
+<branch type="ELSE IF" condition="'${gender}' == 'Female'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[3]//div[1]//div[1]//div[2]//input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:27.858595" elapsed="0.000047"/>
+</kw>
+<status status="NOT RUN" start="2025-06-12T11:25:27.858315" elapsed="0.000382"/>
+</branch>
+<branch type="ELSE IF" condition="'${gender}' == 'Other'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[3]//div[1]//div[1]//div[3]//input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:27.858852" elapsed="0.000029"/>
+</kw>
+<status status="NOT RUN" start="2025-06-12T11:25:27.858743" elapsed="0.000178"/>
+</branch>
+<status status="PASS" start="2025-06-12T11:25:27.521225" elapsed="0.337733"/>
+</if>
+<arg>${gender}</arg>
+<status status="PASS" start="2025-06-12T11:25:27.520694" elapsed="0.338349"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:28.859837" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:27.859159" elapsed="1.001055"/>
+</kw>
+<kw name="Set Mobile" owner="LabDDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:28.862136" level="INFO">Typing text '5484641809' into text field 'xpath://input[@id='mobile']'.</msg>
+<arg>xpath://input[@id='mobile']</arg>
+<arg>${mobile}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:28.861572" elapsed="0.174679"/>
+</kw>
+<arg>${mobile}</arg>
+<status status="PASS" start="2025-06-12T11:25:28.860776" elapsed="0.175739"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:30.037459" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:29.036735" elapsed="1.000946"/>
+</kw>
+<kw name="Set Date of Birth" owner="LabDDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:30.039121" level="INFO">Typing text '01/02/1984' into text field 'xpath://input[@id='dob']'.</msg>
+<arg>xpath://input[@id='dob']</arg>
+<arg>${dob}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:30.038600" elapsed="0.194157"/>
+</kw>
+<arg>${dob}</arg>
+<status status="PASS" start="2025-06-12T11:25:30.038057" elapsed="0.194982"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:31.234209" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:30.233363" elapsed="1.001078"/>
+</kw>
+<kw name="Set Subject" owner="LabDDTKeywords">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:31.235778" level="INFO">Typing text 'Math' into text field 'xpath://input[@id='subjects']'.</msg>
+<arg>xpath://input[@id='subjects']</arg>
+<arg>${subject}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:31.235344" elapsed="0.217374"/>
+</kw>
+<arg>${subject}</arg>
+<status status="PASS" start="2025-06-12T11:25:31.234814" elapsed="0.218205"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:32.454245" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:31.453352" elapsed="1.001145"/>
+</kw>
+<kw name="Set Hobbies" owner="LabDDTKeywords">
+<kw name="Split String" owner="String">
+<msg time="2025-06-12T11:25:32.456739" level="INFO">${hobbies} = ['Reading', ' Sports']</msg>
+<var>${hobbies}</var>
+<arg>${hobby}</arg>
+<arg>separator=,</arg>
+<doc>Splits the ``string`` using ``separator`` as a delimiter string.</doc>
+<status status="PASS" start="2025-06-12T11:25:32.455824" elapsed="0.000993"/>
+</kw>
+<for flavor="IN">
+<iter>
+<kw name="Strip String" owner="String">
+<msg time="2025-06-12T11:25:32.459339" level="INFO">${trimmed} = Reading</msg>
+<var>${trimmed}</var>
+<arg>${hob}</arg>
+<doc>Remove leading and/or trailing whitespaces from the given string.</doc>
+<status status="PASS" start="2025-06-12T11:25:32.457829" elapsed="0.001578"/>
+</kw>
+<if>
+<branch type="IF" condition="'${trimmed}' == 'Sports'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://input[@id='hobbies']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:32.460733" elapsed="0.000055"/>
+</kw>
+<status status="NOT RUN" start="2025-06-12T11:25:32.460240" elapsed="0.000750"/>
+</branch>
+<branch type="ELSE IF" condition="'${trimmed}' == 'Reading'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:32.461696" level="INFO">Clicking element 'xpath://div[7]//div[1]//div[1]//div[2]//input[1]'.</msg>
+<arg>xpath://div[7]//div[1]//div[1]//div[2]//input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:32.461378" elapsed="0.124381"/>
+</kw>
+<status status="PASS" start="2025-06-12T11:25:32.461067" elapsed="0.124898"/>
+</branch>
+<branch type="ELSE IF" condition="'${trimmed}' == 'Music'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[7]//div[1]//div[1]//div[3]//input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:32.586487" elapsed="0.000081"/>
+</kw>
+<status status="NOT RUN" start="2025-06-12T11:25:32.586071" elapsed="0.000590"/>
+</branch>
+<status status="PASS" start="2025-06-12T11:25:32.460181" elapsed="0.126557"/>
+</if>
+<var name="${hob}">Reading</var>
+<status status="PASS" start="2025-06-12T11:25:32.457584" elapsed="0.129224"/>
+</iter>
+<iter>
+<kw name="Strip String" owner="String">
+<msg time="2025-06-12T11:25:32.589169" level="INFO">${trimmed} = Sports</msg>
+<var>${trimmed}</var>
+<arg>${hob}</arg>
+<doc>Remove leading and/or trailing whitespaces from the given string.</doc>
+<status status="PASS" start="2025-06-12T11:25:32.587793" elapsed="0.001478"/>
+</kw>
+<if>
+<branch type="IF" condition="'${trimmed}' == 'Sports'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:32.592416" level="INFO">Clicking element 'xpath://input[@id='hobbies']'.</msg>
+<arg>xpath://input[@id='hobbies']</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="PASS" start="2025-06-12T11:25:32.591734" elapsed="0.160251"/>
+</kw>
+<status status="PASS" start="2025-06-12T11:25:32.589991" elapsed="0.162317"/>
+</branch>
+<branch type="ELSE IF" condition="'${trimmed}' == 'Reading'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[7]//div[1]//div[1]//div[2]//input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:32.752819" elapsed="0.000078"/>
+</kw>
+<status status="NOT RUN" start="2025-06-12T11:25:32.752422" elapsed="0.000575"/>
+</branch>
+<branch type="ELSE IF" condition="'${trimmed}' == 'Music'">
+<kw name="Click Element" owner="SeleniumLibrary">
+<arg>xpath://div[7]//div[1]//div[1]//div[3]//input[1]</arg>
+<doc>Click the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:32.753284" elapsed="0.000058"/>
+</kw>
+<status status="NOT RUN" start="2025-06-12T11:25:32.753077" elapsed="0.000347"/>
+</branch>
+<status status="PASS" start="2025-06-12T11:25:32.589911" elapsed="0.163583"/>
+</if>
+<var name="${hob}"> Sports</var>
+<status status="PASS" start="2025-06-12T11:25:32.587252" elapsed="0.166307"/>
+</iter>
+<var>${hob}</var>
+<value>@{hobbies}</value>
+<status status="PASS" start="2025-06-12T11:25:32.456987" elapsed="0.296699"/>
+</for>
+<arg>${hobby}</arg>
+<status status="PASS" start="2025-06-12T11:25:32.455143" elapsed="0.298772"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<msg time="2025-06-12T11:25:33.757503" level="INFO">Slept 1 second.</msg>
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="PASS" start="2025-06-12T11:25:32.756396" elapsed="1.001341"/>
+</kw>
+<kw name="Set Picture" owner="LabDDTKeywords">
+<kw name="Choose File" owner="SeleniumLibrary">
+<msg time="2025-06-12T11:25:33.759256" level="INFO">Sending C:\Users\shkum\PycharmProjects\RobotFrameWork1\DataDrivenTesting\UsersshkumDownloadssampleFile (3).jpeg to browser.</msg>
+<msg time="2025-06-12T11:25:34.014950" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2025-06-12T11:25:34.015551" level="FAIL">InvalidArgumentException: Message: invalid argument: File not found : C:UsersshkumDownloadssampleFile (3).jpeg
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69fb73905+25605]
+	(No symbol) [0x0x7ff69fac3a10]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fdf6f1a+1962506]
+	(No symbol) [0x0x7ff69f8d2b6f]
+	(No symbol) [0x0x7ff69f8f9e4a]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f8ce91d]
+	(No symbol) [0x0x7ff69f8fa110]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f9175df]
+	(No symbol) [0x0x7ff69f8f9bb3]
+	(No symbol) [0x0x7ff69f8cdf56]
+	(No symbol) [0x0x7ff69f8cd463]
+	(No symbol) [0x0x7ff69f8cdd83]
+	(No symbol) [0x0x7ff69f9ce10d]
+	(No symbol) [0x0x7ff69f9ddce8]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc588d9+265161]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc601b1+296097]
+	(No symbol) [0x0x7ff69fad21b1]
+	(No symbol) [0x0x7ff69faca654]
+	(No symbol) [0x0x7ff69faca7a3]
+	(No symbol) [0x0x7ff69fabb976]
+	BaseThreadInitThunk [0x0x7ffb33a5e8d7+23]
+	RtlUserThreadStart [0x0x7ffb347bc5dc+44]
+</msg>
+<arg>xpath://input[@id='picture']</arg>
+<arg>${path}</arg>
+<doc>Inputs the ``file_path`` into the file input field ``locator``.</doc>
+<status status="FAIL" start="2025-06-12T11:25:33.758758" elapsed="0.289878">InvalidArgumentException: Message: invalid argument: File not found : C:UsersshkumDownloadssampleFile (3).jpeg
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69fb73905+25605]
+	(No symbol) [0x0x7ff69fac3a10]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fdf6f1a+1962506]
+	(No symbol) [0x0x7ff69f8d2b6f]
+	(No symbol) [0x0x7ff69f8f9e4a]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f8ce91d]
+	(No symbol) [0x0x7ff69f8fa110]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f9175df]
+	(No symbol) [0x0x7ff69f8f9bb3]
+	(No symbol) [0x0x7ff69f8cdf56]
+	(No symbol) [0x0x7ff69f8cd463]
+	(No symbol) [0x0x7ff69f8cdd83]
+	(No symbol) [0x0x7ff69f9ce10d]
+	(No symbol) [0x0x7ff69f9ddce8]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc588d9+265161]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc601b1+296097]
+	(No symbol) [0x0x7ff69fad21b1]
+	(No symbol) [0x0x7ff69faca654]
+	(No symbol) [0x0x7ff69faca7a3]
+	(No symbol) [0x0x7ff69fabb976]
+	BaseThreadInitThunk [0x0x7ffb33a5e8d7+23]
+	RtlUserThreadStart [0x0x7ffb347bc5dc+44]
+</status>
+</kw>
+<arg>${path}</arg>
+<status status="FAIL" start="2025-06-12T11:25:33.758172" elapsed="0.290889">InvalidArgumentException: Message: invalid argument: File not found : C:UsersshkumDownloadssampleFile (3).jpeg
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69fb73905+25605]
+	(No symbol) [0x0x7ff69fac3a10]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fdf6f1a+1962506]
+	(No symbol) [0x0x7ff69f8d2b6f]
+	(No symbol) [0x0x7ff69f8f9e4a]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f8ce91d]
+	(No symbol) [0x0x7ff69f8fa110]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f9175df]
+	(No symbol) [0x0x7ff69f8f9bb3]
+	(No symbol) [0x0x7ff69f8cdf56]
+	(No symbol) [0x0x7ff69f8cd463]
+	(No symbol) [0x0x7ff69f8cdd83]
+	(No symbol) [0x0x7ff69f9ce10d]
+	(No symbol) [0x0x7ff69f9ddce8]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc588d9+265161]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc601b1+296097]
+	(No symbol) [0x0x7ff69fad21b1]
+	(No symbol) [0x0x7ff69faca654]
+	(No symbol) [0x0x7ff69faca7a3]
+	(No symbol) [0x0x7ff69fabb976]
+	BaseThreadInitThunk [0x0x7ffb33a5e8d7+23]
+	RtlUserThreadStart [0x0x7ffb347bc5dc+44]
+</status>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:34.052887" elapsed="0.000134"/>
+</kw>
+<kw name="Set Current Address" owner="LabDDTKeywords">
+<arg>${address}</arg>
+<status status="NOT RUN" start="2025-06-12T11:25:34.053561" elapsed="0.000088"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:34.053886" elapsed="0.000064"/>
+</kw>
+<kw name="Set State" owner="LabDDTKeywords">
+<arg>${state}</arg>
+<status status="NOT RUN" start="2025-06-12T11:25:34.056023" elapsed="0.000187"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:34.056576" elapsed="0.000069"/>
+</kw>
+<kw name="Set City" owner="LabDDTKeywords">
+<arg>${city}</arg>
+<status status="NOT RUN" start="2025-06-12T11:25:34.056942" elapsed="0.000059"/>
+</kw>
+<kw name="Sleep" owner="BuiltIn">
+<arg>1</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<status status="NOT RUN" start="2025-06-12T11:25:34.057698" elapsed="0.000069"/>
+</kw>
+<kw name="To Login" owner="LabDDTKeywords">
+<status status="NOT RUN" start="2025-06-12T11:25:34.057998" elapsed="0.000058"/>
+</kw>
+<arg>name=John Doe</arg>
+<arg>email=john.doe@example.com</arg>
+<arg>gender=Male</arg>
+<arg>mobile=5484641809</arg>
+<arg>dob=01/02/1984</arg>
+<arg>subject=Math</arg>
+<arg>hobby=Reading, Sports</arg>
+<arg>path=C:\Users\shkum\Downloads\sampleFile (3).jpeg</arg>
+<arg>address=123 Main St</arg>
+<arg>state=NCR</arg>
+<arg>city=Agra</arg>
+<status status="FAIL" start="2025-06-12T11:25:23.212487" elapsed="10.845895">InvalidArgumentException: Message: invalid argument: File not found : C:UsersshkumDownloadssampleFile (3).jpeg
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69fb73905+25605]
+	(No symbol) [0x0x7ff69fac3a10]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fdf6f1a+1962506]
+	(No symbol) [0x0x7ff69f8d2b6f]
+	(No symbol) [0x0x7ff69f8f9e4a]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f8ce91d]
+	(No symbol) [0x0x7ff69f8fa110]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f9175df]
+	(No symbol) [0x0x7ff69f8f9bb3]
+	(No symbol) [0x0x7ff69f8cdf56]
+	(No symbol) [0x0x7ff69f8cd463]
+	(No symbol) [0x0x7ff69f8cdd83]
+	(No symbol) [0x0x7ff69f9ce10d]
+	(No symbol) [0x0x7ff69f9ddce8]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc588d9+265161]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc601b1+296097]
+	(No symbol) [0x0x7ff69fad21b1]
+	(No symbol) [0x0x7ff69faca654]
+	(No symbol) [0x0x7ff69faca7a3]
+	(No symbol) [0x0x7ff69fabb976]
+	BaseThreadInitThunk [0x0x7ffb33a5e8d7+23]
+	RtlUserThreadStart [0x0x7ffb347bc5dc+44]
+</status>
+</kw>
+<status status="FAIL" start="2025-06-12T11:25:23.210734" elapsed="10.855775">InvalidArgumentException: Message: invalid argument: File not found : C:UsersshkumDownloadssampleFile (3).jpeg
+  (Session info: MicrosoftEdge=137.0.3296.68)
+Stacktrace:
+	GetHandleVerifier [0x0x7ff69fb73905+25605]
+	(No symbol) [0x0x7ff69fac3a10]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fdf6f1a+1962506]
+	(No symbol) [0x0x7ff69f8d2b6f]
+	(No symbol) [0x0x7ff69f8f9e4a]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f8ce91d]
+	(No symbol) [0x0x7ff69f8fa110]
+	(No symbol) [0x0x7ff69f8cea5d]
+	(No symbol) [0x0x7ff69f9175df]
+	(No symbol) [0x0x7ff69f8f9bb3]
+	(No symbol) [0x0x7ff69f8cdf56]
+	(No symbol) [0x0x7ff69f8cd463]
+	(No symbol) [0x0x7ff69f8cdd83]
+	(No symbol) [0x0x7ff69f9ce10d]
+	(No symbol) [0x0x7ff69f9ddce8]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc588d9+265161]
+	Microsoft::Applications::Events::EventProperty::to_string [0x0x7ff69fc601b1+296097]
+	(No symbol) [0x0x7ff69fad21b1]
+	(No symbol) [0x0x7ff69faca654]
+	(No symbol) [0x0x7ff69faca7a3]
+	(No symbol) [0x0x7ff69fabb976]
+	BaseThreadInitThunk [0x0x7ffb33a5e8d7+23]
+	RtlUserThreadStart [0x0x7ffb347bc5dc+44]
+</status>
+</test>
+<kw name="Close App" owner="LabDDTKeywords" type="TEARDOWN">
+<kw name="Close Browser" owner="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2025-06-12T11:25:34.101283" elapsed="3.654280"/>
+</kw>
+<status status="PASS" start="2025-06-12T11:25:34.100766" elapsed="3.655064"/>
+</kw>
+<status status="FAIL" start="2025-06-12T11:25:16.955878" elapsed="20.800054"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="LabseesionKeywords" id="s1" pass="0" fail="1" skip="0">LabseesionKeywords</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

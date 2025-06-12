@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.3 (Python 3.13.4 on win32)" generated="2025-06-09T15:48:51.104549" rpa="false" schemaversion="5">
+<suite id="s1" name="SetupatKeyWordLevel" source="C:\Users\shkum\PycharmProjects\RobotFrameWork1\TestSuite\SetupatKeyWordLevel.robot">
+<test id="s1-t1" name="Login" line="4">
+<kw name="Login">
+<kw name="Launch Browser" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Open Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.161847" elapsed="0.003689"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.161256" elapsed="0.004586"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Logging into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.166138" elapsed="0.007903"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the username</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.174274" elapsed="0.002107"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the password</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.176683" elapsed="0.000888"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user clicks on the login button</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.179309" elapsed="0.016656"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User is navigated to home page</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.196387" elapsed="0.001014"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Close Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.198388" elapsed="0.000799"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.197918" elapsed="0.001459"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.160706" elapsed="0.038757"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.159262" elapsed="0.040755"/>
+</test>
+<test id="s1-t2" name="AddToCart" line="7">
+<kw name="AddToCart">
+<kw name="Launch Browser" type="SETUP">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Open Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.205205" elapsed="0.000727"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.204914" elapsed="0.001436"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Adding product to cart</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.206492" elapsed="0.000601"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Logging into application</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.207275" elapsed="0.000621"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the username</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.208067" elapsed="0.001037"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user enters the password</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.209333" elapsed="0.006012"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>user clicks on the login button</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.215800" elapsed="0.000707"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User adds product to cart</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.216662" elapsed="0.000976"/>
+</kw>
+<kw name="Close Browser" type="TEARDOWN">
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Close Browser</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2025-06-09T15:48:51.218753" elapsed="0.001719"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.218151" elapsed="0.002426"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.204501" elapsed="0.016125"/>
+</kw>
+<status status="PASS" start="2025-06-09T15:48:51.203597" elapsed="0.017291"/>
+</test>
+<status status="PASS" start="2025-06-09T15:48:51.108639" elapsed="0.113648"/>
+</suite>
+<statistics>
+<total>
+<stat pass="2" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="SetupatKeyWordLevel" id="s1" pass="2" fail="0" skip="0">SetupatKeyWordLevel</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
